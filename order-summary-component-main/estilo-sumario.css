@@ -1,0 +1,59 @@
+body {
+  background: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 1440px auto;
+  font-size: 16px;
+}
+
+.caixa {
+  text-align: center;
+  background-color: white;
+  display: block;
+  margin: 50rem 50rem;
+  border-radius: 10px;
+}
+
+.imagem {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.planos {
+  border: 1px;
+  background-color: hsla(228, 100%, 98%, 0.959);
+  border-radius: 4px;
+  margin: 0 4rem;
+  position: relative;
+}
+
+.planos img {
+  position: absolute;
+  left: 6px;
+  top: 0.5rem;
+  width: 13.5%;
+  vertical-align: center;
+}
+.planos h2 {
+}
+.planos a {
+  position: absolute;
+  right: 6px;
+  top: 1rem;
+}
+
+.assinar {
+  margin: 1rem 4rem;
+  border: 1px solid black;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 4px;
+  padding: 4px 0;
+  transition: all 0.5s;
+}
+
+.assinar:hover {
+  background-color: hsl(224, 23%, 55%);
+}
